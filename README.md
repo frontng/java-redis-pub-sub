@@ -4,7 +4,7 @@
 ### 1.安装redis
 ````
 docker pull redis
-docker run -d --name redis  -p 6379:6379 --name redis redis
+docker run -d --name redis  -p 6379:6379 redis
 ````
 
 ### 2.编译
